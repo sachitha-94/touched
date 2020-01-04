@@ -184,8 +184,36 @@ class Index extends React.Component {
             </Row>
           </Container>
           </section>
+          <section className="section">
+            <Container>
+              <Row className="py-3 align-items-center" style={{textAlign: "center" }}>
+                <Col sm="12">
+                  <h6 className="display-4 mb-0" style={{fontSize: "larger",textAlign: "center"}}>
+                  Relationship Fueled By A Hyper-Personalized Customer Experience
+                  </h6>
+                  <img
+                    alt="..."
+                    className="ml-1"
+                    style={{ height: "28px",textAlign: "center" }}
+                    src={require("assets/img/touched/Artboard.png")}
+                  />
+                </Col>
+             </Row>
+             <Row className="py-3 align-items-center" style={{textAlign: "center" }}>
+             <p className="text-muted mb-0">
+             sample body text go to here.sample body text go to here.sample body text go to here.
+                sample body text go to here.sample body text go to here.
+                sample body text go to here.sample body text go to here
+              </p>
+             </Row>
+            </Container>
+          </section>
 
-          <Buttons />
+
+
+
+
+          {/* <Buttons />
           <Inputs />
           <section className="section">
             <Container>
@@ -215,7 +243,7 @@ class Index extends React.Component {
           <Carousel />
           <Icons />
           <Login />
-          <Download />
+          <Download /> */}
         </main>
         <SimpleFooter />
       </>
