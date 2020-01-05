@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
-import { Container, Row ,Col,CardImg,Card} from "reactstrap";
+import { Container, Row ,Col,CardImg,Card,CardBody,CardTitle} from "reactstrap";
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.jsx";
@@ -153,10 +153,11 @@ class Index extends React.Component {
                     <CardImg
                       alt="..."
                       src={require("assets/img/touched/home-icon-01.png")}
+                      style={{padding: "50px" }}
                     />
-                    <h6 className="display-4 mb-0" style={{fontSize: "larger",textAlign: "center"}}>
-                    Hyper-Personalized
-                  </h6>
+                    <CardBody>
+                      <CardTitle className="display-4 mb-0"  style={{textAlign: "center" }}> Hyper-Personalized</CardTitle>
+                    </CardBody>
                 </Card>
               </Col>
               <Col className="mb-5 mb-lg-0" md="4">
@@ -164,10 +165,11 @@ class Index extends React.Component {
                     <CardImg
                       alt="..."
                       src={require("assets/img/touched/home-icon-02.png")}
+                      style={{padding: "50px" }}
                     />
-                       <h6 className="display-4 mb-0" style={{fontSize: "larger",textAlign: "center"}}>
-                    Fully Automated
-                  </h6>
+                    <CardBody>
+                      <CardTitle className="display-4 mb-0"  style={{textAlign: "center" }}> Fully Automated</CardTitle>
+                    </CardBody>
                 </Card>
               </Col>
               <Col className="mb-5 mb-md-0" md="4">
@@ -175,10 +177,11 @@ class Index extends React.Component {
                     <CardImg
                       alt="..."
                       src={require("assets/img/touched/home-icon-03.png")}
+                      style={{padding: "50px" }}
                     />
-                       <h6 className="display-4 mb-0" style={{fontSize: "larger",textAlign: "center"}}>
-                   White Labeled
-                  </h6>
+                    <CardBody>
+                      <CardTitle className="display-4 mb-0"  style={{textAlign: "center" }}> White Labeled</CardTitle>
+                    </CardBody>
                 </Card>
               </Col>
             </Row>
