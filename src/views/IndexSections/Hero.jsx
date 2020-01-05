@@ -10,19 +10,6 @@ class Hero extends React.Component {
         <div className="position-relative" >
           {/* Hero for FREE version */}
           <section className="section section-lg section-hero main-image" style={{boxSizing:"content-box"}} >
-            {/* Background circles */}
-            {/* <div className="shape shape-style-1 shape-default">
-              <span className="span-150" />
-              <span className="span-50" />
-              <span className="span-50" />
-              <span className="span-75" />
-              <span className="span-100" />
-              <span className="span-75" />
-              <span className="span-50" />
-              <span className="span-100" />
-              <span className="span-50" />
-              <span className="span-100" />
-            </div> */}
             <Container className="shape-container d-flex align-items-center py-lg">
               <div className="col px-0">
                 <Row className="align-items-center justify-content-center">
