@@ -18,7 +18,7 @@ class Hero extends React.Component {
                       alt="..."
                       className="img-fluid"
                       src={require("assets/img/touched/logo_final.png")}
-                      style={{ width: "200px" }}
+                      style={{ width: "100%" }}
                     />
                     <p className="lead text-white">
                      Sample Body text go to here.Sample Body text go to here.
